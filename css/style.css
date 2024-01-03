@@ -1,0 +1,142 @@
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    color: white;
+}
+.wrap{
+    text-align: center;
+    padding-top: 200px;
+}
+img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -99;
+    filter: brightness(60%);
+}
+
+/*login*/
+#login_form input{
+    padding: 8px;
+    background: #ffffff47;
+    border: none;
+    width: 230px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: center;
+    transition: .3s;
+    color: white;
+    font-size: 1rem;
+}
+#login_form input::placeholder{
+    font-size: 1.2rem;
+}
+#login_form input:hover{
+    background: #ffffffd1;
+}
+#login_form input:focus{
+    outline:none;
+    border-bottom: 1px solid white;
+    background-color:rgba(0, 0, 0, 0.075);
+}
+#login_form input:hover::-webkit-input-placeholder{
+    color: rgb(50, 50, 50);
+}
+#login_form button{
+    width: 100px;
+    height: 46px;
+    border: none;
+    background: #ffffffc7;
+    border-radius: 32px;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: .3s;
+}
+#login_form button:hover{
+    background: #fffffff1;
+}
+.hidden{
+    display: none;
+}
+#greeting{
+    margin-bottom: 20px;
+}
+
+/*clock*/
+#clock{
+    font-size: 7rem;
+    margin-bottom: 30px;
+}
+
+/*todo_list*/
+#todo_form input{
+    padding: 8px;
+    border: none;
+    background: #ffffff47;
+    width: 415px;
+    height: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    transition: .3s;
+    color: white;
+    font-size: 1rem;
+}
+#todo_form input:hover{
+    background: #ffffffd1;
+}
+#todo_form input::placeholder{
+    font-size: 1.2rem;
+}
+
+#todo_form input:hover::-webkit-input-placeholder{ /*placeholder color change*/
+    color: rgb(50, 50, 50);
+}
+#todo_form input:focus{
+    outline:none;
+    border-bottom: 1px solid white;
+    background-color:rgba(0, 0, 0, 0.075);
+}
+
+/* todo-list */
+#todo_list li{
+    padding-bottom: 16px;
+}
+#todo_list li span{
+    font-size: 1.2rem;
+    padding-right: 16px;
+}
+#todo_list li:hover{
+    color: orange;
+}
+#todo_list li button{
+    border: none;
+    background: transparent;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* quote */
+#quote{
+    position: absolute;
+    bottom: 80px;
+    left: 522px;
+    width: 870px;
+}
+#quote p:nth-of-type(1){
+    font-size: 1.2rem;
+}
+#quote p:nth-of-type(2){
+    font-style: italic;
+}
+
+/* weather */
+#weather{
+    position: absolute;
+    top: 41px;
+    right: 53px;
+}
+
