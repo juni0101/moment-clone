@@ -137,6 +137,15 @@ img{
 #weather{
     position: absolute;
     top: 41px;
-    right: 53px;
+    right: 102px;
 }
-
+#weather #weather-description{
+    font-size: 1.7rem;
+    padding-right: 8px;
+}
+#weather img{
+    width: 90px;
+    position: absolute;
+    top: -22px;
+    left: 163px;
+}

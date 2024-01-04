@@ -9,10 +9,16 @@ function onGeoOk(position){
     fetch(url)
     .then((response) => response.json())
     .then((data) => {
-        const weather = document.querySelector('#weather span:first-child');
-        const city = document.querySelector('#weather span:last-child');
-        city.textContent = data.name
-        weather.textContent = `${data.weather[0].main} / ${data.main.temp}`
+        const weatherIcon = document.querySelector('#weather-icon')
+        const weatherDescription = document.querySelector('#weather-description');
+        const city = document.querySelector('#city');
+
+        const iconUrl = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+        weatherIcon.setAttribute('src', iconUrl);
+
+        // 날씨상태 텍스트표시
+        city.textContent = data.name;
+        weatherDescription.textContent = `${data.main.temp} ºC `
     })
 }
 
