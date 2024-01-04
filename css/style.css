@@ -149,3 +149,32 @@ img{
     top: -22px;
     left: 163px;
 }
+
+/* mobile */
+@media screen and (max-width: 430px){
+    #bgImg{
+        height: 932px;
+        /* position: absolute;
+        top: 0;
+        left: 0; */
+        z-index: -99;
+    }
+    #weather {
+        right: 162px;
+    }
+    #clock {
+        font-size: 5rem;
+    }#login_form input {
+        width: 181px;
+    }
+    #todo_form input {
+        width: 308px;
+    }
+    #quote {
+        left: 44px;
+        width: 350px;
+    }
+    #quote p:nth-of-type(1) {
+        font-size: 1.1rem;
+    }
+}
