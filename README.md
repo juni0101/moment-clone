@@ -27,3 +27,8 @@ javascript를 이용하여 만든 Momentum Clone앱
 
 ### pc 화면
 ![image](https://github.com/juni0101/moment-clone/assets/122968167/62329b42-639b-4d60-ab39-229860c3fd47)
+
+### 모바일 반응형 
+- (430 x 932)
+![image](https://github.com/juni0101/moment-clone/assets/122968167/fe8c5393-8edc-4be4-9211-0bc6abcefca4)
+
