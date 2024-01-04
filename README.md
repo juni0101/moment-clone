@@ -2,12 +2,12 @@
 - 클론사이트 보러가기 : https://soonmac.github.io/momentum_clone/
 <br>
 
-## 프로젝트 소개
+## 🖥프로젝트 소개
 javascript를 이용하여 만든 Momentum Clone앱 
 (jQuery 등의 라이브러리를 사용하지 않고 JavaScript 프로그램 작성)
 <br>
 
-## 주요기능
+## ⚙주요기능
 ### 시계
 - Date객체를 이용하여 현재시간을 표시하도록 작성
 
