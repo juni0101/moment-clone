@@ -23,3 +23,7 @@ javascript를 이용하여 만든 Momentum Clone앱
 
  ### 실시간 날씨
  - OpenWeather API를 통해 사용자의 위치를 수집하고 실시간 날씨를 출력하는 기능
+<br>
+
+### pc 화면
+![image](https://github.com/juni0101/moment-clone/assets/122968167/62329b42-639b-4d60-ab39-229860c3fd47)
